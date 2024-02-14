@@ -4,15 +4,15 @@ export default function PopularProducts() {
  
         <div className="grid grid-cols-3 md:gap-2 md:mx-[30%] mx-2">
             <button className="relative z-2 h-10 flex items-center">
-                <img src="images/vector 4.png" className="absolute pl-1 z-3"></img>
+                <img src="images/ico1.png" className="absolute pl-1 z-3"></img>
                 <p className="absolute z-1 pl-5 text-[red] bg-grey-800 shadow">Popular Coupons</p>
             </button>
             <button className="relative z-2 h-10 flex items-center pl-4 ">
-                <img src="images/vector 4.png" className="absolute pl-1"></img>
+                <img src="images/ico2.png" className="absolute pl-1"></img>
                 <p className="absolute z-1 pl-5 bg-grey-50">Ending Soon</p>
             </button>
             <button className="relative z-2 h-10 flex items-center">
-                <img src="images/vector 4.png" className="absolute pl-1"></img>
+                <img src="images/ico3.png" className="absolute pl-1"></img>
                 <p className="absolute z-1 pl-5 bg-grey-50">Latest Coupons</p>
             </button>     
         </div>
