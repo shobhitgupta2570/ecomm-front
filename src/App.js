@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import LandingPage from './pages/LandingPage'
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     {/* https://www.figma.com/file/hfCueHkrimtlwa8c6pXGPZ/Somriddhi-Ditigal-Pvt.-Ltd?type=design&node-id=0-1&mode=design&t=NepWjL34LrLXq5Bi-0  */}
+    {/* <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1> */}
+    <LandingPage></LandingPage>
+
     </div>
   );
 }
